@@ -1,0 +1,89 @@
+body{
+    background: url(../img/body.jpg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+} 
+
+h1{
+    text-align: center;
+    font-family:"Lato", sans-serif;
+    font-weight:20%;
+    font-style: normal;
+    margin: 10px;
+}
+
+.inter_login {
+    background-color: #f1ecec3e;
+    backdrop-filter: blur(10px); 
+    width: 500px;
+    height: 280px;
+    padding: 10px;
+    margin: 50px auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+} 
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    width: 60%;
+    margin:0 auto;
+    padding: 5px;
+    border:none;
+    margin-bottom:10px;
+    border-radius: 10px;
+    outline: 0;
+}
+
+.btn{
+    padding: 10px;
+	width: 30%;
+	margin: 0 auto;
+    margin-bottom:10px ;
+	border-radius: 50px;
+	border: none;
+    font-family:"Lato", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: #9104a7;
+	cursor: pointer;
+    transition: .2s;
+}
+.btn:hover{
+    background: #cb04e9;
+   transform:scale(1.05);
+}
+.esque_senha, .cria_conta{
+    font-family:"Lato", sans-serif;
+	font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.esque_senha{
+    position: absolute;
+    top:90%;
+    left:66%;
+    transition: .2s;
+}
+.cria_conta{
+    position: absolute;
+    top:90%;
+    transition: .2s;
+}
+.esque_senha:hover{
+    font-family:"Lato", sans-serif;
+	font-weight: 700;
+    transform:scale(1.08);
+}
+.cria_conta:hover{
+    font-family:"Lato", sans-serif;
+	font-weight: 700;
+    transform:scale(1.08);
+}
